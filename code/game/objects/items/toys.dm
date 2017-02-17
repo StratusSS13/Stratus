@@ -1575,7 +1575,7 @@ obj/item/toy/cards/deck/syndicate/black
 	toysay = "..."
 
 /obj/item/toy/figure/miner
-	name = "Shaft Miner action figure"
+	name = "Miner action figure"
 	icon_state = "miner"
 	toysay = "Oh god it's eating my intestines!"
 
