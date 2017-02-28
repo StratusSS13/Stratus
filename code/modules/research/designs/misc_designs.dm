@@ -5,7 +5,7 @@
 	name = "Design Storage Disk"
 	desc = "Produce additional disks for storing device designs."
 	id = "design_disk"
-	req_tech = list("programming" = 1)
+	
 	build_type = PROTOLATHE | AUTOLATHE
 	materials = list(MAT_METAL = 30, MAT_GLASS = 10)
 	build_path = /obj/item/weapon/disk/design_disk
@@ -15,7 +15,7 @@
 	name = "Plant data disk"
 	desc = "A disk for storing plant genetic data."
 	id = "diskplantgene"
-	req_tech = list("programming" = 4, "biotech" = 3)
+	
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL=200, MAT_GLASS=100)
 	build_path = /obj/item/weapon/disk/plantgene
@@ -25,7 +25,7 @@
 	name = "Intellicard"
 	desc = "Allows for the construction of an intellicard."
 	id = "intellicard"
-	req_tech = list("programming" = 4, "materials" = 4)
+	
 	build_type = PROTOLATHE
 	materials = list(MAT_GLASS = 1000, MAT_GOLD = 200)
 	build_path = /obj/item/device/aicard
@@ -35,7 +35,7 @@
 	name = "Personal Artificial Intelligence Card"
 	desc = "Allows for the construction of a pAI Card"
 	id = "paicard"
-	req_tech = list("programming" = 2)
+	
 	build_type = PROTOLATHE
 	materials = list(MAT_GLASS = 500, MAT_METAL = 500)
 	build_path = /obj/item/device/paicard
@@ -45,7 +45,7 @@
 	name = "Technology Data Storage Disk"
 	desc = "Produce additional disks for storing technology data."
 	id = "tech_disk"
-	req_tech = list("programming" = 1)
+	
 	build_type = PROTOLATHE | AUTOLATHE
 	materials = list(MAT_METAL = 30, MAT_GLASS = 10)
 	build_path = /obj/item/weapon/disk/tech_disk
@@ -55,7 +55,7 @@
 	name = "Digital Camera"
 	desc = "Produce an enhanced version of the standard issue camera."
 	id = "digitalcamera"
-	req_tech = list("programming" = 2, "materials" = 2)
+	
 	build_type = PROTOLATHE
 	materials = list(MAT_METAL = 500, MAT_GLASS = 300)
 	build_path = /obj/item/device/camera/digital
