@@ -6,7 +6,7 @@ var/list/robot_verbs_default = list(
 	name = "Cyborg"
 	real_name = "Cyborg"
 	icon = 'icons/mob/robots.dmi'
-	icon_state = "robot"
+	icon_state = "robotprotc"
 	maxHealth = 100
 	health = 100
 	universal_understand = 1
@@ -289,6 +289,7 @@ var/list/robot_verbs_default = list(
 			module_sprites["Basic"] = "robot_old"
 			module_sprites["Android"] = "droid"
 			module_sprites["Default"] = "robot"
+			module_sprites["Stratus"] = "robotprotc"
 
 		if("Service")
 			module = new /obj/item/weapon/robot_module/butler(src)
@@ -309,6 +310,7 @@ var/list/robot_verbs_default = list(
 			module_sprites["Advanced Droid"] = "droid-miner"
 			module_sprites["Treadhead"] = "Miner"
 			module_sprites["Standard"] = "robotMine"
+			module_sprites["Stratus"] = "minerprotec"
 
 		if("Medical")
 			module = new /obj/item/weapon/robot_module/medical(src)
@@ -320,6 +322,7 @@ var/list/robot_verbs_default = list(
 			module_sprites["Advanced Droid"] = "droid-medical"
 			module_sprites["Needles"] = "medicalrobot"
 			module_sprites["Standard"] = "robotMedi"
+			module_sprites["Stratus"] = "medicprotec"
 			status_flags &= ~CANPUSH
 
 		if("Security")
@@ -330,6 +333,7 @@ var/list/robot_verbs_default = list(
 			module_sprites["Black Knight"] = "securityrobot"
 			module_sprites["Bloodhound"] = "bloodhound"
 			module_sprites["Standard"] = "robotSecy"
+			module_sprites["Stratus"] = "secprotec"
 			status_flags &= ~CANPUSH
 
 		if("Engineering")
@@ -341,6 +345,7 @@ var/list/robot_verbs_default = list(
 			module_sprites["Antique"] = "engineerrobot"
 			module_sprites["Landmate"] = "landmate"
 			module_sprites["Standard"] = "robotEngi"
+			module_sprites["Stratus"] = "engiprotec"
 			magpulse = 1
 
 		if("Janitor")
