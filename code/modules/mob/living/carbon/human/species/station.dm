@@ -160,7 +160,7 @@
 	to the degree it can cause conflict with more rigorous and strict authorities. They speak a guttural language known as 'Canilunzt' \
     which has a heavy emphasis on utilizing tail positioning and ear twitches to communicate intent."
 
-	flags = HAS_LIPS
+	flags = HAS_LIPS | STRONGSMELL
 	clothing_flags = HAS_UNDERWEAR | HAS_UNDERSHIRT | HAS_SOCKS
 	bodyflags = FEET_PADDED | HAS_TAIL | TAIL_WAGGING | TAIL_OVERLAPPED | HAS_HEAD_ACCESSORY | HAS_MARKINGS | HAS_SKIN_COLOR | HAS_FUR
 	dietflags = DIET_OMNI

@@ -1120,6 +1120,10 @@
 			// Humans can lack a mind datum, y'know
 			if(H.mind && H.mind.assigned_role == "Detective")
 				return //too cool for puke
+			if(H.species && H.species.flags & STRONGSMELL)
+				to_chat(H, "<spawn class='warning'>You smell something absolutely revolting...")
+				H.vomit()
+				return //don't want people throwing up twice
 			to_chat(H, "<spawn class='warning'>You smell something foul...")
 			H.fakevomit()
 
