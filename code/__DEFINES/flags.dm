@@ -43,6 +43,7 @@
 #define ALL_RPARTS		2048
 #define NOGUNS			4096
 #define NOTRANSSTING	8192
+#define STRONGSMELL		16384
 
 //Species clothing flags
 #define HAS_UNDERWEAR 	1
